@@ -1,0 +1,59 @@
+body {
+  scroll-behavior: smooth;
+}
+
+/* Hero */
+.hero {
+  height: 100vh;
+  background: linear-gradient(rgba(0,0,0,0.4), rgba(0,0,0,0.6)),
+              url("../img/images.jpg") no-repeat center center;
+  background-size: cover;
+  image-rendering: -webkit-optimize-contrast; /* mejora nitidez en Chrome */
+}
+
+
+/* Navbar */
+.navbar .nav-link {
+  font-weight: 500;
+  color: #333;
+}
+.navbar .nav-link:hover {
+  color: #0d6efd;
+}
+
+/* Servicios */
+.service-box .icon {
+  font-size: 40px;
+}
+
+/* Stats */
+.stats h3 {
+  font-size: 2.5rem;
+  color: #0d6efd;
+}
+
+/* Metodología */
+#metodologia .card {
+  border: 1px solid #ddd;
+  transition: transform 0.2s ease-in-out;
+}
+#metodologia .card:hover {
+  transform: translateY(-5px);
+}
+/* Servicios Innovadores */
+.service-box {
+  border-radius: 15px;
+  background: #fff;
+  transition: all 0.3s ease-in-out;
+}
+.service-box:hover {
+  transform: translateY(-8px);
+  background: linear-gradient(135deg, #bba0a0, #8e8ebe);
+  color: #fff !important;
+}
+.service-box:hover .icon {
+  color: #fff !important;
+}
+.service-box:hover p {
+  color: #f8f9fa !important;
+}
